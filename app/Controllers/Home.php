@@ -28,29 +28,14 @@ class Home extends BaseController
         echo view('front/acerca_de');
         echo view('front/footer_view');
     }
-    public function registro()
+    public function servicios()
     {
-        $data['titulo']='Registro';
+        $data['titulo']='Servicios';
         echo view('front/head_view',$data);
         echo view('front/navbar_view');
-        echo view('back/usuarios/registro');
+        echo view('front/servicios');
         echo view('front/footer_view');
     }
 
-    public function login()
-    {
-        $data['titulo']='Inicio de Sesión';
-        echo view('front/head_view',$data);
-        echo view('front/navbar_view');
-        echo view('back/usuarios/login');
-        echo view('front/footer_view');
-    }
-    public function carrito()
-    {
-        $data['titulo']='carrito';
-        echo view('front/head_view',$data);
-        echo view('front/navbar_view');
-        echo view('front/carrito');
-        echo view('front/footer_view');
-    }
+  
 }

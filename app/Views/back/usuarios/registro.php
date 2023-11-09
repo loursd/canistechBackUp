@@ -1,10 +1,9 @@
 <br>
 <br>
+
+<h1 style="text-shadow: 2px 2px 5px blue; color: black">Registro</h1>
 <br>
-<br>
-<h1 style="text-shadow: 2px 2px 5px red; color: pink">REGISTRO</h1>
-<br>
-<br>
+
 
 <?php $validation = \Config\Services::validation(); ?>
 <form method="post" action="<?php echo base_url('/enviar-form') ?> ">
@@ -64,9 +63,9 @@
             <?php } ?>
         </div>
 
-        <!--input type="submit" value="Registrarse" class="btn btn-success"-->
+        <button type="submit" class="btn btn-info"> Crear cuenta </button>
         <input type="reset" value="Cancelar" class="btn btn-secondary">
-        <button type="submit" class="btn btn-danger">Registrarse</button>
+        
         <br>
         <br>
         <p>¿Ya tienes una cuenta?<a class="link" href="<?= base_url('login') ?>">Iniciar Sesion</a></p>

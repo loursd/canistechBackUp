@@ -29,7 +29,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'duarte_lourdes',
+        'database' => 'canistech',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
