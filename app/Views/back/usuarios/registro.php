@@ -71,3 +71,4 @@
         <p>¿Ya tienes una cuenta?<a class="link" href="<?= base_url('login') ?>">Iniciar Sesion</a></p>
 </form>
 </div>
+<!-- -->
